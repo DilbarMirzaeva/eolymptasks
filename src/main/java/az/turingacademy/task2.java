@@ -8,12 +8,10 @@ public class task2 {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        if (a <= b && a <= c) {
-            int cvb = b <= c ? b : c;
-            System.out.println(cvb);
-        } else if (b <= a && b <= c) {
-            int cvb = a <= c ? a : c;
-            System.out.println(cvb);
+        if ((a >= b && a <= c) || (a <= b && a >= c)) {
+            System.out.println(a);
+        } else if ((b >= c && b <= a) || (b <= c && b >= a)) {
+            System.out.println(b);
         } else {
             System.out.println(c);
         }
