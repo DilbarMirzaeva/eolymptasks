@@ -1,4 +1,4 @@
-package simple.tasks;
+package simpleTasks;
 
 import java.util.Scanner;
 

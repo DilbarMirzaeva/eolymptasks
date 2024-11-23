@@ -1,4 +1,4 @@
-package hardtasks;
+package hardTasks;
 
 import java.util.Arrays;
 

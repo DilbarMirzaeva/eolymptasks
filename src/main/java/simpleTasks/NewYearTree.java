@@ -1,4 +1,4 @@
-package simple.tasks;
+package simpleTasks;
 
 import java.util.Scanner;
 
@@ -8,12 +8,12 @@ public class NewYearTree {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k=sc.nextInt();
-        int h=k;
-        if((k==1 && n>1) || n>15 || k<1){
+        long h=k;
+        if((k==1 && n>1) || (k==2 && n%2!=0 && n>1) ){
             System.out.println("-1");
             return;
-        }if(k==1 && n==1){
-            System.out.println("1");
+        }if(n==1 && k>=1){
+            System.out.println(k);
             return;
         }
         for (int i = 0; i < n-1; i++) {

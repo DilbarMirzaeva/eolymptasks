@@ -1,8 +1,8 @@
-package simple.tasks;
+package simpleTasks;
 
 import java.util.Scanner;
 
-public class digitsApp {
+public class DigitsApp {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

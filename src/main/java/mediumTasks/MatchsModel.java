@@ -1,4 +1,4 @@
-package mediumtasks;
+package mediumTasks;
 
 import java.util.Scanner;
 
